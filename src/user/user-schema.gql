@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type user {
+  name: String!
+  age: Int!
+}
+
+type captain {
+  name: String!
+  age: Int!
+}
+
+type Query {
+  getUser: user!
+}
